@@ -1,2 +1,2 @@
-# opticals
-Opticals vpython homework
+# Optics
+Optics vpython homework
