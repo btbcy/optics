@@ -19,8 +19,8 @@ def spectrum (lamda):
     specC = C * exp (-((lamda-lamda_c)/lamda_ce)**2)
     return specA + specB + specC
 
-def Tetalon (lamda, t, R):
-    delta = 4*pi*1*t/lamda
+def Tetalon (lamda, th, R):
+    delta = 4*pi*1*th/lamda
     Te = (1-R)**2 / ( (1-R)**2 + 4*R*(sin(delta/2))**2)
     return Te
 
